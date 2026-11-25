@@ -44,10 +44,10 @@ Publish the website in Localhost.
 ## PROGRAM:
 ```
 <html>
-  <head>
+<head>
     <title>Churn Rate</title>
-  </head>
-  <body>
+</head>
+<body>
 <h1 align="center">Churn Rate Calculation</h1>
 <h2 align="center">Ajai (26018976)</h2>
 Customers Lost Count =
@@ -60,8 +60,9 @@ Initial Customers Count =
 <br><br>
 Churn Rate =
 <input type="text" name="ChurnRate" value="{{CR}}">
-  </body>
+</body>
 </html>
+
 
 views.py
 from django.shortcuts import render
@@ -83,7 +84,7 @@ urlpatterns = [path('', views.gst_bill, name='gst_bill'),]
 ```
 
 ## OUTPUT - SERVER SIDE:
-![alt text](image.png)
+![alt text](<Screenshot 2026-11-25 113603.png>)
 
 ## OUTPUT - WEBPAGE:
 ![alt text](<Screenshot 2026-11-25 113343.png>)
