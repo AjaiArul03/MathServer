@@ -83,7 +83,7 @@ urlpatterns = [path('', views.gst_bill, name='gst_bill'),]
 ```
 
 ## OUTPUT - SERVER SIDE:
-![alt text](<Screenshot 2026-11-25 113603.png>)
+![alt text](image.png)
 
 ## OUTPUT - WEBPAGE:
 ![alt text](<Screenshot 2026-11-25 113343.png>)
